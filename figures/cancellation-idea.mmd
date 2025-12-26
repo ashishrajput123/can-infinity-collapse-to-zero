@@ -1,0 +1,13 @@
+
+flowchart TB
+    NUM["Representation:<br><br>**...99999 . 99999...**"]
+
+    subgraph PARTS["Split Into Parts"]
+        LEFT["Left side (p-adic):<br><br>...99999 = -1"]
+        RIGHT["Right side (real):<br><br>.99999... = +1"]
+    end
+
+    NUM --> PARTS
+    PARTS --> COMB["Combine:<br><br> (-1) + (+1) = 0"]
+
+    COMB --> FINAL["**Infinity collapses to Zero<br>via symmetric cancellation**"]
