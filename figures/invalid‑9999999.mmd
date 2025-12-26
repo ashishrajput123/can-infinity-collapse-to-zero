@@ -1,0 +1,9 @@
+
+flowchart TB
+
+    BAD["Sequence:<br>9999999......."]
+    WHYBAD["Problem:<br>There is no decimal point.<br>No reference position.<br>No left/right separation."]
+    INVALID["Therefore:<br><br>Representation is undefined<br>in the universal infinite-digit system."]
+    CORRECT["Valid formats must include:<br><br>...digits . digits..."]
+
+    BAD --> WHYBAD --> INVALID --> CORRECT
