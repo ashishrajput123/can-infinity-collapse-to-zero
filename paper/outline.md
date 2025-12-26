@@ -99,23 +99,28 @@ bx – x = –1  ⇒  x = –1
 ---
 
 ## 7. Why the Right Side Equals +1 (Real Analysis Interpretation)
-- Classical limit proof that:
-
+Classical limit proof that:
 
 0.99999... = 1
 
-- Geometric series interpretation:
+Geometric series interpretation:
 
-\[
-\sum_{n=1}^{∞} \frac{b−1}{b^n} = 1
-\]
+The right-infinite expansion .(b−1)(b−1)(b−1)... equals 1 because:
 
-- Meaning of right-infinite expansions in real numbers.
+(b−1)/b + (b−1)/b² + (b−1)/b³ + ...  converges to 1.
 
-- Generalization:
+This is the standard infinite geometric series with:
 
+first term a = (b−1)/b  
+ratio     r = 1/b
 
-.(b−1)(b−1)(b−1)... = 1   (base b)
+Sum = a / (1 − r) = ((b−1)/b) / (1 − 1/b) = 1
+
+Therefore:
+
+.(b−1)(b−1)(b−1)... = 1   (in any base b ≥ 2)
+
+Meaning: the right-infinite block of maximal digits always evaluates to +1 in the real number system.
 
 ---
 
