@@ -70,7 +70,7 @@ This is the same identity used in your universal representation system.
 ---
 
 ## 4. Generalization to Base b
-In base \( b \ge 2 \):
+In base \( b >= 2 \):
 
 
 ...(b−1)(b−1)(b−1)... = –1
