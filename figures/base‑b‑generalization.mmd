@@ -1,0 +1,11 @@
+
+flowchart TB
+
+    DIGITS["Max-digit pattern in base b:<br><br>...(b−1)(b−1)(b−1)"]
+    PADIC["b-adic interpretation:<br><br>...(b−1)(b−1) = −1"]
+    REALSIDE["Right-infinite:<br>.(b−1)(b−1)(b−1)... = 1"]
+    SUM["Combine both sides:<br>(−1) + 1 = 0"]
+    CONST["General constant-digit pattern:<br>
+    ...(d)(d)(d) . (d)(d)(d)... = 0"]
+
+    DIGITS --> PADIC --> REALSIDE --> SUM --> CONST
