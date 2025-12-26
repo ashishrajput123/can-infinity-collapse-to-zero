@@ -1,23 +1,28 @@
 
 flowchart TB
+  TITLE["Negative numbers without '-' sign"]
 
-    TITLE["Representing Negative Real Numbers<br>Without Using a Minus Sign"]
+  subgraph EX1["Example: -1"]
+    Z0["Zero pattern: ...1111.1111... = 0"]
+    X1["Choose X = ...1110.1111..."]
+    C1["Check: X + 1 = ...1111.1111... = 0"]
+    R1["Therefore X = -1"]
+    Z0 --> X1 --> C1 --> R1
+  end
 
-    %% Example -1
-    subgraph EX1["Example: Representing -1"]
-        Z0["Zero pattern:<br>...1111 . 1111... = 0"]
-        X1["Pick representation X:<br>...1110 . 1111..."]
-        ADD1["X + 1 = ...1111 . 1111... = 0"]
-        RES1["Therefore:<br>X = -1"]
-    end
+  subgraph EX2["Example: -37"]
+    Z1["Zero patterns: ...6666.6666... = 0 and ...4444.4444... = 0"]
 
-    %% Example -37
-    subgraph EX2["Example: Representing -37"]
-        Z1["Zero pattern:<br>...6666 . 6666... = 0 (base 10 example)"]
-        X2["Pick representation X:<br>...96263 . 6666..."]
-        ADD2["X + 37 = ...6666 . 6666... = 0"]
-        RES2["Therefore:<br>X = -37"]
-    end
+    A1["Rep1: X = ...666629.66666..."]
+    A2["Check1: X + 37 = ...666666.66666... = 0"]
+    A3["Thus Rep1 encodes -37"]
 
-    TITLE --> EX1 --> EX2
-    RES1 --> RES2
+    B1["Rep2: Y = ...444407.444444..."]
+    B2["Check2: Y + 37 = ...444444.444444... = 0"]
+    B3["Thus Rep2 encodes -37"]
+
+    Z1 --> A1 --> A2 --> A3
+    Z1 --> B1 --> B2 --> B3
+  end
+
+  TITLE --> EX1 --> EX2
