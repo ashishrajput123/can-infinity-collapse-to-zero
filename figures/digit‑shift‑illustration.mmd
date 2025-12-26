@@ -1,0 +1,13 @@
+
+flowchart TB
+
+    A["Define x:<br><br>x = ...9999"]
+    B["Shift left by one digit:<br><br>10x = ...99990"]
+    C["Align for subtraction:<br>
+    ...99990<br>
+    − ...9999<br>
+    = −1"]
+    D["Thus:<br>10x − x = −1"]
+    E["So:<br>x = −1"]
+
+    A --> B --> C --> D --> E
