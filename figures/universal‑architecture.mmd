@@ -1,0 +1,30 @@
+
+flowchart TB
+
+    subgraph LEFT["Left-Infinite Region (p-adic-like)"]
+        L1["..."]
+        L2["d₃"]
+        L3["d₂"]
+        L4["d₁"]
+        L5["d₀"]
+        PAD["Interpreted via b-adics:<br>Left-infinite max digits → −1"]
+    end
+
+    DOT["● (decimal point)<br>Reference anchor"]
+
+    subgraph RIGHT["Right-Infinite Region (real-like)"]
+        R1["d'₀"]
+        R2["d'₁"]
+        R3["d'₂"]
+        R4["d'₃"]
+        R5["..."]
+        REAL["Interpreted via real analysis:<br>Right-infinite max digits → +1"]
+    end
+
+    CANCEL["Symmetric cancellation:<br>(−1) + 1 = 0"]
+    CONST["Constant-digit identity:<br>...(d)(d)(d).(d)(d)(d)... = 0"]
+
+    L1 --> L2 --> L3 --> L4 --> L5 --> DOT --> R1 --> R2 --> R3 --> R4 --> R5
+    PAD --> CANCEL
+    REAL --> CANCEL
+    CANCEL --> CONST
