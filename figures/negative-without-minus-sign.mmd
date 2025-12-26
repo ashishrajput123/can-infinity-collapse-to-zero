@@ -1,0 +1,23 @@
+
+flowchart TB
+
+    TITLE["Representing Negative Real Numbers<br>Without Using a Minus Sign"]
+
+    %% Example -1
+    subgraph EX1["Example: Representing -1"]
+        Z0["Zero pattern:<br>...1111 . 1111... = 0"]
+        X1["Pick representation X:<br>...1110 . 1111..."]
+        ADD1["X + 1 = ...1111 . 1111... = 0"]
+        RES1["Therefore:<br>X = -1"]
+    end
+
+    %% Example -37
+    subgraph EX2["Example: Representing -37"]
+        Z1["Zero pattern:<br>...6666 . 6666... = 0 (base 10 example)"]
+        X2["Pick representation X:<br>...96263 . 6666..."]
+        ADD2["X + 37 = ...6666 . 6666... = 0"]
+        RES2["Therefore:<br>X = -37"]
+    end
+
+    TITLE --> EX1 --> EX2
+    RES1 --> RES2
