@@ -255,7 +255,14 @@ This is analogous to **2’s complement**, but executed at the level of **infini
 
 ---
 
-## 10. Implications & Interpretations
+## 10. 99999.... is not equal to .......999999
+lets say
+a = 99999....
+b = .......999999
+a != b
+in our number representation a is not even a valid number since every number should have reference point (ie decimal reference) which a does not have
+
+## 11. Implications & Interpretations
 - New perspectives on infinity: how infinite left and right expansions can cancel.
 - Unified representation for real and p-adic domains.
 - Negative numbers can be represented without a minus sign.
@@ -269,7 +276,7 @@ left-infinite expansion + right-infinite expansion = finite number
 
 ---
 
-## 11. Conclusion
+## 12. Conclusion
 - Summary of findings.
 - Conceptual implications.
 - Limitations of the framework.
