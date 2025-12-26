@@ -1,6 +1,6 @@
 
 flowchart TB
-    subgraph S["Left-Infinite 9-Sequence (10-adic)"]
+    subgraph SEQ["Left-Infinite 9-Sequence (10-adic)"]
         A1["9 = 10¹ - 1"]
         A2["99 = 10² - 1"]
         A3["999 = 10³ - 1"]
@@ -8,6 +8,8 @@ flowchart TB
         A5["..."]
     end
 
-    S --> LIM["10ⁿ → 0 (10-adic metric) <br> ⇒ 10ⁿ - 1 → -1"]
+    SEQ --> STEP["In 10-adics: 10ⁿ → 0"]
 
-    LIM --> RESULT["Conclusion: <br><br> **...99999 = -1**"]
+    STEP --> LIMIT["Therefore: 10ⁿ − 1 → −1"]
+
+    LIMIT --> RESULT["Conclusion:\n...99999 = −1"]
