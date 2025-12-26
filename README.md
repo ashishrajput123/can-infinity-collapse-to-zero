@@ -84,6 +84,10 @@ A formal LaTeX paper will be added soon.
 
 ---
 
+## TIP
+
+for simpler and visual understanding see figures folder
+
 ## 🤝 Contributions
 
 Feel free to open issues or pull requests to extend, challenge, or refine the ideas.
