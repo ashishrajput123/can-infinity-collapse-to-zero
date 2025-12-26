@@ -1,0 +1,10 @@
+
+flowchart TB
+
+    X["Let:<br><br>x = 0.99999..."]
+    SHIFT["Multiply by 10:<br><br>10x = 9.99999..."]
+    SUB["Subtract the two:<br><br>10x − x = 9.99999... − 0.99999... = 9"]
+    SOLVE["Thus:<br><br>9x = 9"]
+    RESULT["Conclusion:<br><br>x = 1"]
+
+    X --> SHIFT --> SUB --> SOLVE --> RESULT
