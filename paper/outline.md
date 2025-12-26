@@ -161,9 +161,7 @@ Reason:
 
 - And:
 
-\[
-d = \frac{d}{b−1}(b−1)
-\]
+d = (d / (b−1)) · (b−1)
 
 - So the entire pattern is a rational multiple of zero.
 
