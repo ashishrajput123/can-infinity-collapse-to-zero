@@ -1,0 +1,22 @@
+
+flowchart TB
+
+    STYLE["The Symmetric Max-Digit Number:<br><br>**...99999 . 99999...**"]
+
+    subgraph LEFT["Left Side (p-adic world)"]
+        L["...99999<br>= -1"]
+    end
+
+    subgraph RIGHT["Right Side (real world)"]
+        R[".99999...<br>= +1"]
+    end
+
+    CANCEL["Combine the two halves:<br><br>(-1)  +  (+1)  =  0"]
+
+    CONCLUSION["**Result:**<br>The 'largest possible' infinite number<br>actually collapses to **zero**"]
+
+    STYLE --> LEFT
+    STYLE --> RIGHT
+    LEFT --> CANCEL
+    RIGHT --> CANCEL
+    CANCEL --> CONCLUSION
