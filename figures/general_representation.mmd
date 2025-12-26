@@ -1,0 +1,9 @@
+
+flowchart TB
+
+    Z["Canonical zero pattern:<br><br>...99999 . 99999... = 0"]
+    SCALE["Multiply both sides by (d / (b−1))"]
+    CONST["Resulting constant-digit pattern:<br><br>...(d)(d)(d) . (d)(d)(d)... = 0"]
+    EXAMPLE["Example (base 10):<br><br>(8/9) × ...99999.99999 = ...88888.88888"]
+
+    Z --> SCALE --> CONST --> EXAMPLE
