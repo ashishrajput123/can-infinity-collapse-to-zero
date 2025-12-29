@@ -101,6 +101,9 @@ If you use this work in academic writing or other publications, please cite it v
 
 **DOI:** https://doi.org/10.5281/zenodo.18084390
 ``
+### BibTeX
+
+Rajput, A. (2025). Can Infinity Collapse to Zero? A Universal Infinite-Digit Representation System. Zenodo. https://doi.org/10.5281/zenodo.18084390 
 
 
 ## 📄 License
