@@ -95,6 +95,14 @@ Feel free to open issues or pull requests to extend, challenge, or refine the id
 
 ---
 
+## Cite this work
+
+If you use this work in academic writing or other publications, please cite it via the Zenodo DOI:
+
+**DOI:** https://doi.org/10.5281/zenodo.18084390
+``
+
+
 ## 📄 License
 
 MIT License
