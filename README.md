@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18084390.svg)](https://doi.org/10.5281/zenodo.18084390)
 # Can Infinity Collapse to Zero?
 ### Interpreting Real Numbers Through Infinite-Digit Representations on the Real Number Line
 
